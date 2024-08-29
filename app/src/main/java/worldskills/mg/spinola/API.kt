@@ -9,7 +9,3 @@ interface UserAPI {
     @GET("test/{id}")
     suspend fun getExample(@Path("id") id: String): Response<ResponseBody>
 }
-
-class UserServices() {
-    get
-}
